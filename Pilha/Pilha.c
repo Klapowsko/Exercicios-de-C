@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 //Define uma constante 
-#define tamanho 5
+#define tamanho 10
 // Cria uma estrutura 
 struct tpilha {
 	int num[tamanho];
@@ -74,5 +74,6 @@ void pilha_entrar(){
 void pilha_sair(){
 	pilha.num[pilha.fim-1] = 0;
 	pilha.fim--;
+
 }
 
